@@ -1,4 +1,4 @@
-# 🍃Hariyali
+# 🍃FarmAI
 <h3 style="text-align: center;">Using the potential of machine learning and deep learning in the agriculture industry.</h3>
 
 ## 🚀Inspiration
