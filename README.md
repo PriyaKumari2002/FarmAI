@@ -58,3 +58,11 @@ Gain access to in-depth market trends analysis tools, helping farmers make strat
 	•	Collaborative Tools for Farmers
 Foster a sense of community and knowledge-sharing among farmers. FarmAI will introduce collaborative tools that enable farmers to connect, share insights, and learn from each other’s experiences. This collaborative platform aims to create a supportive ecosystem for agricultural success.
 
+Project Demo
+## 🎥 Demo
+
+<video width="600" controls>
+  <source src="/Users/jageshwar252/Downloads/FarmAI.mov" type="video/mov">
+  Your browser does not support the video tag.
+</video>
+
