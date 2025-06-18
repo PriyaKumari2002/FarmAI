@@ -58,29 +58,3 @@ Gain access to in-depth market trends analysis tools, helping farmers make strat
 	•	Collaborative Tools for Farmers
 Foster a sense of community and knowledge-sharing among farmers. FarmAI will introduce collaborative tools that enable farmers to connect, share insights, and learn from each other’s experiences. This collaborative platform aims to create a supportive ecosystem for agricultural success.
 
-🖼️Application Images
-
-📌Landing page
-
-  <img src="app/static/images/landing_page.jpg">
-
-
-📌Services
-
-  <img src="app/static/images/services.jpg">
-
-
-📌Crop recommendation system
-
-  <img src="app/static/images/crop_pred.jpg">
-
-
-📌Fertilizer recommendation
-
-  <img src="app/static/images/fertilizer.jpg">
-
-
-📌Crop disease prediction
-
-  <img src="app/static/images/disease_pred.jpg">
-
