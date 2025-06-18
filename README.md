@@ -1,3 +1,10 @@
+## 🎥 Demo
+
+<video width="600" controls>
+  <source src="demo/FarmAI.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 🍃FarmAI
 <h3 style="text-align: center;">Using the potential of machine learning and deep learning in the agriculture industry.</h3>
 
