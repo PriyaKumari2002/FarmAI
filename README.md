@@ -14,17 +14,6 @@ https://farmai-2-m5gc.onrender.com/
 
 ---
 
-# 🎥 Demo Video
-
-> Place your demo video inside the `demo/` folder.
-
-```html
-<video width="800" controls>
-  <source src="demo/FarmAI.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-```
-
 ---
 
 # 📌 Overview
@@ -132,16 +121,6 @@ Instead of unrealistic accuracy claims, the models are designed to provide meani
 ## Visualization
 - Matplotlib
 - Seaborn
-
----
-
-# 📸 Project Screenshots
-
-## 🏠 Homepage
-
-![FarmAI Homepage](demo/homepage.png)
-
-Modern landing page for the FarmAI platform with AI-powered agriculture assistance features.
 
 ---
 
