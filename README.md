@@ -1,75 +1,262 @@
-## 🎥 Demo
+# 🍃 FarmAI  
+### AI-Powered Smart Agriculture Assistant
 
-<video width="600" controls>
+<h3 align="center">
+Using Machine Learning & Deep Learning to Support Smarter Farming Decisions
+</h3>
+
+---
+
+# 🌐 Live Demo
+
+🚀 **Try the Project Here:**  
+https://farmai-2-m5gc.onrender.com/
+
+---
+
+# 🎥 Demo Video
+
+> Place your demo video inside the `demo/` folder.
+
+```html
+<video width="800" controls>
   <source src="demo/FarmAI.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+```
 
-🍃FarmAI
-<h3 style="text-align: center;">Using the potential of machine learning and deep learning in the agriculture industry.</h3>
+---
 
+# 📌 Overview
 
-🚀Inspiration
+Agriculture is one of the most important sectors in India, supporting millions of livelihoods and contributing significantly to the economy. However, farmers often face challenges related to crop selection, soil fertility, weather uncertainty, and crop diseases.
 
-Farming in India is deeply ingrained in its cultural and economic fabric, with a significant portion of the population engaged in agriculture. The country’s diverse agro-climatic zones allow for the cultivation of a wide variety of crops, ranging from rice and wheat to spices and fruits. Traditional farming practices coexist with modern agricultural techniques, reflecting the rich agricultural heritage.
+**FarmAI** is an AI-powered web application designed to assist farmers using Machine Learning and Deep Learning technologies. The platform provides intelligent recommendations for crop selection, fertilizer usage, and crop disease management based on soil nutrients and environmental conditions.
 
-FarmAI is a web application in which we employed advanced machine learning and deep learning technologies to assist you in navigating the entire farming process. Empower yourself to make well-informed decisions by delving into local demographics, gaining insights into factors influencing crops, and implementing strategies to ensure robust crop health, ultimately leading to increased yields.
+The goal of FarmAI is to help users make data-driven agricultural decisions that can improve productivity, reduce resource wastage, and support sustainable farming practices.
 
-Implementing predictive analytics can assist in anticipating and mitigating the impact of pests, diseases, and adverse weather conditions. Precision agriculture techniques, powered by machine learning algorithms, can tailor farming practices to specific microenvironments, optimizing water and fertilizer usage.
+---
 
-🤖What it does
+# ✨ Features
 
-Our FarmAI app leverages machine learning and deep learning technologies which hold immense potential for transforming India’s agricultural sector. These advanced technologies can be instrumental in optimizing resource allocation, crop management, and decision-making processes. By analyzing vast datasets, it provides valuable insights into crop recommendation, fertilizer suggestion based on soil conditions, and weather-based crop disease alerts — enabling farmers to make informed choices for improved yield and resource efficiency.
+## 🌱 1. Crop Recommendation System
 
-💡Key features
+FarmAI recommends suitable crops by analyzing:
 
-1️⃣ Crop Recommendation System
+- Nitrogen (N)
+- Phosphorus (P)
+- Potassium (K)
+- Temperature
+- Humidity
+- Weather conditions
+- Soil characteristics
 
-Make informed decisions about crop selection by leveraging our advanced recommendation system. FarmAI analyzes local conditions, real-time weather data (temperature and humidity via Weather API), and soil characteristics (N-P-K values) to suggest the most suitable crops for cultivation. By combining weather and soil nutrient data, this feature aims to maximize yields and promote sustainable farming practices.
+The recommendation system helps users identify crops that are more suitable for their farming conditions.
 
-The N-P-K (Nitrogen - Phosphorous - Potassium) values to be entered should be in proper ratio. Refer the website for more information.
+### 📍 Notes
+- NPK values should be entered in proper proportion.
+- Weather information is fetched using a Weather API.
+- Use common city names for accurate weather retrieval.
 
-While entering the city name, make sure to enter common cities. Remote cities/towns may not be available in the Weather API from where data like temperature and humidity is fetched.
+---
 
-2️⃣ Fertilizer Recommendation
+## 🌾 2. Fertilizer Recommendation
 
-Enhance soil fertility and crop health with our intelligent soil-fertilizer recommendation system. FarmAI assesses the specific soil composition, providing personalized suggestions for the best-suited fertilizers. Simultaneously, it recommends compatible crops, ensuring optimal nutrient utilization and promoting efficient farming practices.
+The fertilizer recommendation module analyzes soil nutrient composition and suggests fertilizers that can help improve soil fertility and crop growth.
 
-3️⃣ Crop Disease Alert and Weather-based Management
+This feature helps in:
+- Improving nutrient balance
+- Reducing excessive fertilizer usage
+- Supporting healthier crop production
 
-Stay ahead of crop diseases with real-time weather-based alerts. FarmAI uses Weather API data like temperature and humidity to predict potential diseases that could affect your crops due to changing environmental conditions. It also offers preventive solutions and management suggestions to reduce risk and ensure healthy crop growth.
+---
 
-Supported crops - Apple, Blueberry, Cherry, Corn, Grape, Pepper, Orange, Peach, Potato, Soybean, Strawberry, Tomato, Squash, Raspberry
+## 🌦️ 3. Crop Disease Alert System
 
-🗃️Tech Stack
-	•	Python
-	•	Flask
-	•	HTML
-	•	CSS
-	•	Bootstrap
-	•	Javascript
-	•	Numpy
-	•	Pandas
-	•	Scikit-learn
-	•	Pytorch
-	•	Matplotlib
-	•	Seaborn
+FarmAI uses weather-related factors such as:
+- Temperature
+- Humidity
 
-🚝Future scope
+to identify possible disease risks for crops and provide preventive suggestions.
 
-Our commitment to innovation and sustainable farming practices drives the future evolution of FarmAI. Let’s explore the exciting possibilities that lie ahead:
-	•	Enhanced Weather Forecasting
-Empower farmers with accurate and timely weather forecasts tailored to their specific locations. Stay ahead of changing weather patterns, enabling proactive decision-making to mitigate risks and optimize farming practices.
-	•	Market Trends Analysis
-Gain access to in-depth market trends analysis tools, helping farmers make strategic decisions based on real-time market dynamics. This feature aims to provide insights into pricing trends, demand patterns, and potential market opportunities.
-	•	Collaborative Tools for Farmers
-Foster a sense of community and knowledge-sharing among farmers. FarmAI will introduce collaborative tools that enable farmers to connect, share insights, and learn from each other’s experiences. This collaborative platform aims to create a supportive ecosystem for agricultural success.
+### ✅ Supported Crops
+- Apple
+- Blueberry
+- Cherry
+- Corn
+- Grape
+- Orange
+- Peach
+- Pepper
+- Potato
+- Raspberry
+- Soybean
+- Squash
+- Strawberry
+- Tomato
 
-Project Demo
-## 🎥 Demo
+---
 
-<video width="600" controls>
-  <source src="/Users/jageshwar252/Downloads/FarmAI.mov" type="video/mov">
-  Your browser does not support the video tag.
-</video>
+# 🧠 Machine Learning Approach
 
+The project uses Machine Learning and Deep Learning models trained on agricultural datasets for prediction and classification tasks.
+
+The focus of the project is on:
+- Practical usability
+- Balanced model performance
+- Generalization
+- Reducing overfitting
+
+Instead of unrealistic accuracy claims, the models are designed to provide meaningful assistance under varying agricultural conditions.
+
+---
+
+# 🛠️ Tech Stack
+
+## Backend
+- Python
+- Flask
+
+## Frontend
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+
+## Machine Learning & Data
+- Scikit-learn
+- PyTorch
+- Pandas
+- NumPy
+
+## Visualization
+- Matplotlib
+- Seaborn
+
+---
+
+# 📸 Project Screenshots
+
+## 🏠 Homepage
+
+![FarmAI Homepage](demo/homepage.png)
+
+Modern landing page for the FarmAI platform with AI-powered agriculture assistance features.
+
+---
+
+# 📂 Project Structure
+
+```bash
+FarmAI/
+│
+├── static/              # CSS, JavaScript, Images
+├── templates/           # HTML Templates
+├── models/              # Trained ML/DL Models
+├── dataset/             # Dataset Files
+├── demo/                # Screenshots & Demo Videos
+├── app.py               # Main Flask Application
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/FarmAI.git
+cd FarmAI
+```
+
+---
+
+## 2️⃣ Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+### Windows
+```bash
+venv\Scripts\activate
+```
+
+### Mac/Linux
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Run the Application
+
+```bash
+python app.py
+```
+
+The application will run locally on:
+
+```bash
+http://127.0.0.1:5000/
+```
+
+---
+
+# 🚀 Future Improvements
+
+- Advanced weather forecasting integration
+- Real-time market trend analysis
+- Satellite imagery support
+- Farmer collaboration/community platform
+- Regional language support
+- Mobile-friendly optimization
+
+---
+
+# 🤝 Contribution
+
+Contributions, suggestions, and improvements are welcome.
+
+```bash
+Fork the repository
+Create a new branch
+Make your changes
+Submit a Pull Request
+```
+
+---
+
+# 📄 License
+
+This project is intended for educational and learning purposes.
+
+---
+
+# 👨‍💻 Author
+
+## Priya Kumari
+
+💼 LinkedIn:  
+https://www.linkedin.com/in/priya374/
+
+🌐 GitHub:  
+https://github.com/PriyaKumari2002
+
+---
+
+# ⭐ Support
+
+If you found this project useful, give it a ⭐ on GitHub.
